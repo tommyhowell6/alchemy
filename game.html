@@ -1,1 +1,28 @@
-<p>game works</p>
+<div class="game-content">
+    <div class="instructions">
+        <!-- this should be a dropdown -->
+        <p>
+            The elements will present themselves by shining through your alchemists circle. 
+            You must match the natural flow of elements in order to channel the magic of this world.
+            Watch the elements as they shine and pay close attention. 
+            When they are finished shining, press the symbols in the order they were presented to you.
+        </p>
+    </div>    
+    <div class="rune-list">
+        <div class="rune fire" ng-click="onAddElement(1)">
+            fire
+        </div>
+        <div class="rune water" ng-click="onAddElement(2)">
+            water
+        </div>
+        <div class="rune earth" ng-click="onAddElement(3)">
+            earth
+        </div>
+        <div class="rune air" ng-click="onAddElement(4)">
+            air
+        </div>
+        <div class="rune light" ng-click="onAddElement(5)">
+            light
+        </div>
+    </div>
+</div>
