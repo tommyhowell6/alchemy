@@ -2,11 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="script.js"> </script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.js"></script>
+    <script type="text/javascript" src="scripts.js"> </script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="controllers.js"> </script>
     <title>Alchemy</title>
   </head>
   <body>
+    <div class="fishing-game" ng-app="FishingGame" ng-controller="mainCtrl">
+
+      <ng-view></ng-view>
+
+    </div>
     <div class="main-body">
       <h2>
         Alchemy
