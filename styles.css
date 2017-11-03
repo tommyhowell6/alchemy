@@ -1,10 +1,9 @@
 body{
-  /* background-color: #00d7ff; */
   font-family: 'IM Fell DW Pica', serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Seaweed Script', cursive;  
+  font-family: 'Seaweed Script', cursive;
 }
 
 .rune-list{
@@ -50,7 +49,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 input {
-  /* This should have a grey somewhat transparent 
-  field and white text. Or just an underline 
+  /* This should have a grey somewhat transparent
+  field and white text. Or just an underline
   with an x before it */
 }
